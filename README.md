@@ -2,6 +2,13 @@
 ## Unofficial YouTube skill for Alexa
 __Last update: 15 Dec 2019__
 
+## Notes for running a lambda
+Add following env variables in lambda
+XDG_CACHE_HOME	/tmp/.cache
+youtube_dl	true
+DEVELOPER_KEY	<YOUTUBE DATA API>
+MY_CHANNEL_ID	<My Channel ID>
+
 ## Instruction on running it on your own lambda
 http://virtualntt.blogspot.com/2019/09/alexa-skills-youtube.html
 
